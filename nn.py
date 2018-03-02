@@ -73,7 +73,7 @@ def sigmoid(x, deriv=False):
 
 
 def main():
-    nn = NeuralNet([2, 10, 5, 1])
+    nn = NeuralNet([2, 3, 1])
 
     X = np.array([
         [[0], [0]],
